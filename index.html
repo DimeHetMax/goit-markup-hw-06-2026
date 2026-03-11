@@ -40,7 +40,7 @@
               </li>
             </ul>
           </nav>
-          <address>
+          <address class="nav-contacts">
             <ul class="address-list">
               <li>
                 <a href="mailto:info@devstudio.com" class="link-contact"
@@ -54,6 +54,78 @@
               </li>
             </ul>
           </address>
+          <!-- mobile buton -->
+          <button class="burger-btn">
+            <svg class="burger-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-menu-burger"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Mob menu -->
+      <div class="mob-menu">
+        <div class="container mob-menu-content">
+          <button type="button" class="close-btn mob-close-btn">
+            <svg class="close-svg" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-btn"></use>
+            </svg>
+          </button>
+           <ul class="nav-list-mob">
+              <li class="nav-item-mob">
+                <a href="#" class="nav-link-mob link-mob active">Studio</a>
+              </li>
+              <li class="nav-item-mob">
+                <a href="#" class="nav-link-mob link-mob">Portfolio</a>
+              </li>
+              <li class="nav-item-mob">
+                <a href="#" class="nav-link-mob link-mob">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="nav-contacts-mob">
+            <ul class="address-list-mob">
+              <li>
+                <a href="mailto:info@devstudio.com" class="link-contact-mob link-mob"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="link-contact-mob link-mob"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+           <ul class="socials-list mob-social-list">
+              <li class="socials-item">
+                <a href="instagram.com" class="socials-link">
+                  <svg class="socials-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials-item">
+                <a href="x.com" class="socials-link">
+                  <svg class="socials-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials-item">
+                <a href="facebook.com" class="socials-link">
+                  <svg class="socials-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials-item">
+                <a href="indeed.com" class="socials-link">
+                  <svg class="socials-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
         </div>
       </div>
     </header>
@@ -129,7 +201,7 @@
       <!-- Section Team -->
       <section class="team section">
         <div class="container">
-          <h2 class="team-title title-centered title">Our Team</h2>
+          <h2 class="title-centered title">Our Team</h2>
           <ul class="team-list">
             <li class="team-list-item">
               <img src="./images/img_1.jpg" alt="Mark" width="264" />
@@ -285,7 +357,7 @@
       <!-- Portfolio -->
       <section class="portfolio section">
         <div class="container">
-          <h2 class="portfolio-title title-centered title">Our Portfolio</h2>
+          <h2 class="title-centered title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <a href="#">
@@ -476,8 +548,8 @@
     <!-- modal -->
     <div class="modal-backdrop">
       <div class="modal">
-        <button type="button" class="modal-close-btn">
-          <svg class="modal-close-svg" width="8" height="8">
+        <button type="button" class="close-btn modal-close-btn">
+          <svg class="close-svg" width="8" height="8">
             <use href="./images/icons.svg#icon-close-btn"></use>
           </svg>
         </button>
@@ -523,9 +595,11 @@
                 <use href="./images/icons.svg#icon-yes"></use>
               </svg>
             </span>
-            I accept the terms and conditions of the
-            <a href="#" class="policy-link">Privacy Policy</a></label
-          >
+            <span class="check-label-text">
+              I accept the terms and conditions of the
+              <a href="#" class="policy-link">Privacy Policy</a>
+            </span>
+          </label>
           <button type="submit" class="button modal-submit-btn">Send</button>
         </form>
       </div>
