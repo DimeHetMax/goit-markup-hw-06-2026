@@ -977,8 +977,10 @@ textarea {
   flex-direction: column;
   height: 100%;
 }
-.nav-list-mob {
+.nav-mob{
   flex-grow: 1;
+}
+.nav-list-mob {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
