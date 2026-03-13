@@ -300,7 +300,7 @@ textarea {
 
 /*  #region Hero */
 .hero {
-  max-width: 320px;
+  /* max-width: 320px; */
   margin: 0 auto;
   padding-top: 72px;
   padding-bottom: 72px;
@@ -321,7 +321,7 @@ textarea {
 }
 @media screen and (min-width: 768px) {
   .hero {
-    max-width: 768px;
+    /* max-width: 768px; */
     padding-top: 112px;
     padding-bottom: 112px;
     background-image:
@@ -439,13 +439,16 @@ textarea {
 .features-item-title {
   margin-bottom: 8px;
 }
-
 @media screen and (max-width: 767px) {
+  .features-item-title {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1157px) {
   .features-item-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
   }
 }
 @media screen and (min-width: 1158px) {
